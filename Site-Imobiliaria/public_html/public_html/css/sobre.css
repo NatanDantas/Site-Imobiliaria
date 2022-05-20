@@ -1,0 +1,30 @@
+
+/* 
+    Created on : 20 de mai. de 2022, 15:43:16
+    Author     : jsda2
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+#logo{
+    width: 145px
+}
+
+body{
+    color: #333;
+    font-family: 'Oswald', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px
+}
+
+h1{
+    background-image: url(../img/background-sobre.png);
+    padding: 10px;   
+}
+
+h2 {
+    border-bottom: 2px solid #333333;
+    margin-top: 30px
+}
