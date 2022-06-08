@@ -1,0 +1,40 @@
+.banner-destaque{
+    float: right;
+    margin-right: 100px;
+}
+.detalhes{
+    margin-left: 50px;
+    width: 500px;
+}
+
+.detalhes h2{
+    font-size: 1.5em;
+    line-height: 2;
+}
+
+.detalhes p{
+    margin: 1em 0;
+    font-size: 1em;
+    line-height: 1.5;
+    max-width: 36em;
+}
+
+.youtube{
+    margin-left: 50px;
+}
+iframe{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.contatos{
+    margin-left: 50px;
+    width: auto;
+}
+
+.contatos img{
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+}
+

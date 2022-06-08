@@ -8,8 +8,150 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.css"> 
+        <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
+        <link rel="stylesheet" href="css/servicos.css"/>
+        <script type="text/javascript" src="js/banner.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script> 
     </head>
     <body>
-        <div>TODO write content</div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="Home.html">
+                <img src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                ADIMO Imóveis
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Produtos.html">Imoveis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Perguntas frequentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Página de Formulários</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container-fluid">
+                <div class="imovel">
+                    <section class="banner-destaque">
+                        <figure>
+                            <img src="img/imovel/i1.PNG" class="float-left" alt="Promoção: Big City Night" width="1000" height="700">
+                        </figure>
+                    </section>
+                    <div class="detalhes">
+                        <h2>Sobre o Imovel</h2>
+                        <p>
+                            Nullam porttitor ipsum ac diam pharetra dapibus.
+                            Quisque eu odio non lacus mollis sagittis.
+                            Nam sit amet ex semper, rutrum quam ut,
+                            tincidunt dolor. Donec mollis eros lorem,
+                            a eleifend sapien posuere egestas.
+                            Nullam in ornare dolor.
+                            Praesent in dignissim tellus,
+                            ut pulvinar magna.
+                        </p>
+                    </div>
+                    
+                    <br />
+                    <div class="contatos">
+                        <h3>Contatos:</h3>
+                        <a href="#">
+                            <img src="img/Telegram_logo.svg.png" alt="telegram" class="rounded">
+                        </a>
+                        <a href="#">
+                            <img src="img/zap.png" alt="telegram" class="rounded-circle">
+                        </a>
+                        <a href="#">
+                            <img src="img/messenger.png" alt="telegram" class="rounded-circle">
+                        </a>
+                    </div>
+                    <!--Video imovel Youtube-->
+                    <div class="youtube">
+                        <h4>Video do Imovel: </h4>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/L64WhOrEBW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <!-- Barrinha -->
+            <section
+                class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+                <div class="me-5 d-none d-lg-block">
+                    <span>Mais Informações:</span>
+                </div>
+            </section>
+            <!-- Fim Barrinha -->
+
+            <!-- Links -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <img src="img/logo.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+                                <i class="fas fa-gem me-3"></i>ADIMO Imóveis
+                            </h6>
+                            <p>
+                                ADIMO Imóveis, sempre trazendo imóveis que não saem da sua cabeça.
+                            </p>
+                        </div>                                
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Links
+                            </h6>
+                            <p>
+                                <a href="#!" class="text-reset">Twitter</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Instagram</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Telegram</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Ajuda</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                Contato
+                            </h6>
+                            <p><i class="fas fa-home me-3"></i> São Paulo, SP 10012, SP</p>
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                adimoimoveis@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> + 51 234 567 88</p>
+                            <p><i class="fas fa-print me-3"></i> + 51 234 567 89</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2022 Copyright: ADIMO Imóveis
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
     </body>
 </html>
