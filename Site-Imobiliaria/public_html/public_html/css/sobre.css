@@ -15,11 +15,12 @@ body {
     font-family: 'Oswald', sans-serif;
     margin-left: auto;
     margin-right: auto;
-    width: 940px
+    width: auto;
 }
 
 h1 {
     background-color: rgba(189, 183, 107, 0.493);
+    margin: 30px;
     padding: 10px;
 }
 
@@ -44,7 +45,7 @@ figure {
     border: 1px solid #ccc;
     text-align: center;
     padding: 15px;
-    margin: 35px
+    margin: 35px;
 }
 
 figcaption {
@@ -67,5 +68,10 @@ p::first-line {
 #matriz-dingle {
     margin-left: auto;
     margin-right: auto;
-    width: 550px
+    width: auto;
+}
+
+.figure matriz-dingle{
+    width: auto;
+    height: auto;
 }
